@@ -1,5 +1,5 @@
 UsingModule;Table;C;R;U;D;HostingModule;;;Service Description 
-Account_Management;AADVO;;;;;Account_Management;;;[T] test diff
+;AADVO;;;;;Account_Management;;;
 CORE;AADVO;;;;;Account_Management;;;
 CORE;AAFRO;;;;;Account_Management;;;
 CORE;AAISO;;;;;General_Ledger;;;
@@ -135,13 +135,13 @@ CORE;AREIO;;;;;auxiliary;;;
 Account_Management;ARESL;;;;;Account_Management;;;
 Lending;ARESS;;;;;Account_Management;;;Intermediate storage of calculation results??
 Financial_Markets;ARESS;;;;;Account_Management;;;
-Cash_Management;ARESS;;;;;Account_Management;;;
+Cash_Management;ARESS;;;;;Account_Management;;;[T] Get Party Info
 CORE;ARESS;;;;;Account_Management;;;
 auxiliary;ARESS;;;;;Account_Management;;;
 Account_Management;ARETL;;;;;Account_Management;;;
 Lending;ARETO;;;;;Account_Management;;;Get Agreement info ( Interest Schedule)
 Financial_Markets;ARETO;;;;;Account_Management;;;
-Cash_Management;ARETO;;;;;Account_Management;;;
+Cash_Management;ARETO;;;;;Account_Management;;;[T] Get Party Info
 CORE;ARETO;;;;;Account_Management;;;
 auxiliary;ARETO;;;;;Account_Management;;;
 Account_Management;AROTO;;;;;General_Ledger;;;
@@ -907,7 +907,7 @@ CORE;LCBNL;;;;;Account_Management;;;
 General_Ledger;LCBNS;;;;;Account_Management;;;
 Lending;LCBNS;;;;;Account_Management;;;Get Party Info 
 Financial_Markets;LCBNS;;;;;Account_Management;;;
-Cash_Management;LCBNS;;;;;Account_Management;;;
+Cash_Management;LCBNS;;;;;Account_Management;;;[T] Get Party Info
 CORE;LCBNS;;;;;Account_Management;;;
 auxiliary;LCBNS;;;;;Account_Management;;;
 CORE;LCCCL;;;;;CORE;;;
@@ -966,7 +966,7 @@ CORE;LEBAO;;;;;Account_Management;;;
 Account_Management;LELCL;;;;;Account_Management;;;
 Lending;LELCS;;;;;Account_Management;;;Get Party Info Info (electronic address)
 Financial_Markets;LELCS;;;;;Account_Management;;;
-Cash_Management;LELCS;;;;;Account_Management;;;
+Cash_Management;LELCS;;;;;Account_Management;;;[T] Get Party Info
 CORE;LELCS;;;;;Account_Management;;;
 auxiliary;LELCS;;;;;Account_Management;;;
 CORE;LELIO;;;;;Account_Management;;;
@@ -986,7 +986,7 @@ Account_Management;LPHYL;;;;;Account_Management;;;
 General_Ledger;LPHYS;;;;;Account_Management;;;
 Lending;LPHYS;;;;;Account_Management;;;Get Party Info 
 Financial_Markets;LPHYS;;;;;Account_Management;;;
-Cash_Management;LPHYS;;;;;Account_Management;;;
+Cash_Management;LPHYS;;;;;Account_Management;;;[T] Get Party Info
 CORE;LPHYS;;;;;Account_Management;;;
 auxiliary;LPHYS;;;;;Account_Management;;;
 CORE;LPMML;;;;;auxiliary;;;
@@ -1012,7 +1012,7 @@ Account_Management;LPSNL;;;;;Account_Management;;;
 General_Ledger;LPSNS;;;;;Account_Management;;;
 Lending;LPSNS;;;;;Account_Management;;;Get Party Info 
 Financial_Markets;LPSNS;;;;;Account_Management;;;
-Cash_Management;LPSNS;;;;;Account_Management;;;
+Cash_Management;LPSNS;;;;;Account_Management;;;[T] Get Party Info
 CORE;LPSNS;;;;;Account_Management;;;
 auxiliary;LPSNS;;;;;Account_Management;;;
 Account_Management;LRCES;;;;;General_Ledger;;;
