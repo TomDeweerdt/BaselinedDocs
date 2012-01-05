@@ -56,22 +56,22 @@ Cash_Management;AEVTO;x;x;;;Account_Management;[T] Store Transactions / [T] Get 
 CORE;AEVTO;x;x;;;Account_Management;
 auxiliary;AEVTO;x;x;;;Account_Management;
 CORE;AEXRL;x;x;x;;CORE;
-General_Ledger;AEXRS;;x;;;CORE;[T] Get booking ref
-Account_Management;AEXRS;;x;;;CORE;
-Lending;AEXRS;;x;;;CORE;
-Financial_Markets;AEXRS;;x;;;CORE;
+General_Ledger;AEXRS;;x;;;CORE;[T] Get Exchange Rates
+Account_Management;AEXRS;;x;;;CORE;[T] Get Exchange Rates
+Lending;AEXRS;;x;;;CORE;[T] Get Exchange Rates
+Financial_Markets;AEXRS;;x;;;CORE;[T] Get Exchange Rates
 auxiliary;AEXRS;;x;;;CORE;
-Account_Management;AFOLO;;x;;x;General_Ledger;
-Financial_Markets;AFOLO;;x;;x;General_Ledger;
-Cash_Management;AFOLO;;x;;x;General_Ledger;
+Account_Management;AFOLO;;x;;x;General_Ledger;[T] Get/Remove booking
+Financial_Markets;AFOLO;;x;;x;General_Ledger;[T] Get/Remove booking
+Cash_Management;AFOLO;;x;;x;General_Ledger;[T] Get/Remove booking
 CORE;AFOLO;;x;;x;General_Ledger;
 auxiliary;AFOLO;;x;;x;General_Ledger;
-General_Ledger;AGEXL;;;;x;General_Ledger;
-Account_Management;AGEXS;;x;;;General_Ledger;
+General_Ledger;AGEXL;;;;x;General_Ledger;[T] See AGEXS
+Account_Management;AGEXS;;x;;;General_Ledger;[T] Get General Expence Accounting Info
 CORE;AGEXS;;x;;;General_Ledger;
 auxiliary;AGEXS;;x;;;General_Ledger;
 Lending;AHLBO;;x;;;Account_Management;Get Account Balance (Ledger??)
-Financial_Markets;AHLBO;;x;;;Account_Management;
+Financial_Markets;AHLBO;;x;;;Account_Management;[T] Get Account Balance (Ledger??)
 Cash_Management;AHLBO;;x;;;Account_Management;[T] Get Balance Info
 CORE;AHLBO;;x;;;Account_Management;
 auxiliary;AHLBO;;x;;;Account_Management;
@@ -84,68 +84,68 @@ Financial_Markets;AIBRO;;x;;;auxiliary;
 CORE;AIBRO;;x;;;auxiliary;
 Account_Management;AINIO;;x;;x;auxiliary;
 CORE;AINIO;;x;;x;auxiliary;
-Account_Management;AINTL;x;;;;CORE;
-General_Ledger;AINTS;x;x;x;;CORE;
-Account_Management;AINTS;x;x;x;;CORE;
-Lending;AINTS;x;x;x;;CORE;
-Financial_Markets;AINTS;x;x;x;;CORE;
-Cash_Management;AINTS;x;x;x;;CORE;
+Account_Management;AINTL;x;;;;CORE;[T] See AINTS
+General_Ledger;AINTS;x;x;x;;CORE;[T] Store/Get Interest Conditions
+Account_Management;AINTS;x;x;x;;CORE;[T] Store/Get Interest Conditions
+Lending;AINTS;x;x;x;;CORE;[T] Store/Get Interest Conditions
+Financial_Markets;AINTS;x;x;x;;CORE;[T] Store/Get Interest Conditions
+Cash_Management;AINTS;x;x;x;;CORE;[T] Store/Get Interest Conditions
 auxiliary;AINTS;x;x;x;;CORE;
 auxiliary;AISTO;x;x;;x;Account_Management;
-Account_Management;AJSTL;x;;;;General_Ledger;
-Account_Management;AJSTO;x;;;;General_Ledger;
-Financial_Markets;AJSTO;x;;;;General_Ledger;
+Account_Management;AJSTL;x;;;;General_Ledger;[T] See AJSTO
+Account_Management;AJSTO;x;;;;General_Ledger;[T] Store Account Info
+Financial_Markets;AJSTO;x;;;;General_Ledger;[T] Store Transactions Info
 CORE;AJSTO;x;;;;General_Ledger;
 auxiliary;AJSTO;x;;;;General_Ledger;
-General_Ledger;ALGRL;;x;;x;General_Ledger;
-Account_Management;ALGRS;;x;;;General_Ledger;
-Financial_Markets;ALGRS;;x;;;General_Ledger;
+General_Ledger;ALGRL;;x;;x;General_Ledger;[T] See ALGRS
+Account_Management;ALGRS;;x;;;General_Ledger;[T] Get Ledger Definition
+Financial_Markets;ALGRS;;x;;;General_Ledger;[T] Get Ledger Definition
 CORE;ALGRS;;x;;;General_Ledger;
 auxiliary;ALGRS;;x;;;General_Ledger;
 Account_Management;AMDCO;x;x;;x;General_Ledger;
 Cash_Management;AMDCO;x;x;;x;General_Ledger;
 CORE;AMDCO;x;x;;x;General_Ledger;
 auxiliary;AMDCO;x;x;;x;General_Ledger;
-General_Ledger;AMVTO;;x;;;Account_Management;
-Lending;AMVTO;;x;;;Account_Management;Create Accounting Entry 
-Financial_Markets;AMVTO;;x;;;Account_Management;
-Cash_Management;AMVTO;;x;;;Account_Management;[T] Store Accounting Movements
+General_Ledger;AMVTO;;x;;;Account_Management;[T] Get Accounting Movements
+Lending;AMVTO;;x;;;Account_Management;Create Accounting Entry??? GET!
+Financial_Markets;AMVTO;;x;;;Account_Management;[T] Get Accounting Movements
+Cash_Management;AMVTO;;x;;;Account_Management;[T] Get Accounting Movements
 CORE;AMVTO;;x;;;Account_Management;
 auxiliary;AMVTO;;x;;;Account_Management;
-Account_Management;ANEUL;;;;x;General_Ledger;
-Account_Management;ANEUO;;x;;;General_Ledger;
+Account_Management;ANEUL;;;;x;General_Ledger;[T] See ANEUO
+Account_Management;ANEUO;;x;;;General_Ledger;[T] Get Neutralised Accounts
 CORE;ANEUO;;x;;;General_Ledger;
-General_Ledger;ANTUS;;x;;;Account_Management;
-Financial_Markets;ANTUS;;x;;;Account_Management;
+General_Ledger;ANTUS;;x;;;Account_Management;[T] Get Nature Code
+Financial_Markets;ANTUS;;x;;;Account_Management;[T] Get Nature Code
 CORE;ANTUS;;x;;;Account_Management;
 auxiliary;ANTUS;;x;;;Account_Management;
 CORE;APPNL;x;;;;CORE;
-Account_Management;APPNO;;x;;;CORE;
-Lending;APPNO;;x;;;CORE;
-Financial_Markets;APPNO;;x;;;CORE;
+Account_Management;APPNO;;x;;;CORE;[T] Get Product Per Nature Code
+Lending;APPNO;;x;;;CORE;[T] Get Product Per Nature Code
+Financial_Markets;APPNO;;x;;;CORE;[T] Get Product Per Nature Code
 auxiliary;APPNO;;x;;;CORE;
-Account_Management;ARBRO;;x;;;General_Ledger;
-Financial_Markets;ARBRO;;x;;;General_Ledger;
+Account_Management;ARBRO;;x;;;General_Ledger;[T] Get Account Balance (Ledger??)
+Financial_Markets;ARBRO;;x;;;General_Ledger;[T] Get Account Balance (Ledger??)
 CORE;ARBRO;;x;;;General_Ledger;
 auxiliary;ARBRO;;x;;;General_Ledger;
-General_Ledger;ARCDL;;;;x;General_Ledger;
+General_Ledger;ARCDL;;;;x;General_Ledger;[T] NO SERVICE REQUIRED
 Account_Management;AREIO;;x;;x;auxiliary;
 CORE;AREIO;;x;;x;auxiliary;
-Account_Management;ARESL;x;;;;Account_Management;
-Lending;ARESS;x;;;;Account_Management;Intermediate storage of calculation results??
-Financial_Markets;ARESS;x;;;;Account_Management;
-Cash_Management;ARESS;x;;;;Account_Management;[T] Get Party Info
+Account_Management;ARESL;x;;;;Account_Management;[T] NO SERVICE REQUIRED
+Lending;ARESS;x;;;;Account_Management;[T] Intermediate storage of calculation results??
+Financial_Markets;ARESS;x;;;;Account_Management;[T] Intermediate storage of calculation results??
+Cash_Management;ARESS;x;;;;Account_Management;[T] Intermediate storage of calculation results??
 CORE;ARESS;x;;;;Account_Management;
 auxiliary;ARESS;x;;;;Account_Management;
-Account_Management;ARETL;x;;;;Account_Management;
-Lending;ARETO;x;x;x;;Account_Management;Get Agreement info ( Interest Schedule)
-Financial_Markets;ARETO;x;x;x;;Account_Management;
-Cash_Management;ARETO;x;x;x;;Account_Management;[T] Get Party Info
+Account_Management;ARETL;x;;;;Account_Management;[T] NO SERVICE REQUIRED
+Lending;ARETO;x;x;x;;Account_Management;[T] Get/Store Agreement info ( Interest Schedule)
+Financial_Markets;ARETO;x;x;x;;Account_Management;[T] Get/Store Agreement info ( Interest Schedule)
+Cash_Management;ARETO;x;x;x;;Account_Management;[T] Get/Store Agreement info ( Interest Schedule)
 CORE;ARETO;x;x;x;;Account_Management;
 auxiliary;ARETO;x;x;x;;Account_Management;
-Account_Management;AROTO;;x;;;General_Ledger;
-Financial_Markets;AROTO;;x;;;General_Ledger;
-Cash_Management;AROTO;;x;;;General_Ledger;
+Account_Management;AROTO;;x;;;General_Ledger;[T] Get P&L Balance Info
+Financial_Markets;AROTO;;x;;;General_Ledger;[T] Get P&L Balance Info
+Cash_Management;AROTO;;x;;;General_Ledger;[T] Get P&L Balance Info
 CORE;AROTO;;x;;;General_Ledger;
 auxiliary;AROTO;;x;;;General_Ledger;
 Account_Management;ARPPO;;x;;;auxiliary;
@@ -153,14 +153,14 @@ Financial_Markets;ARPPO;;x;;;auxiliary;
 CORE;ARPPO;;x;;;auxiliary;
 General_Ledger;ASELO;;x;;;auxiliary;
 CORE;ASELO;;x;;;auxiliary;
-Account_Management;ASPAL;x;;;;Account_Management;
-Cash_Management;ASPAS;x;x;x;;Account_Management;
+Account_Management;ASPAL;x;;;;Account_Management;[T] See ASPAS
+Cash_Management;ASPAS;x;x;x;;Account_Management;[T] Get Address (Why write??)
 CORE;ASPAS;x;x;x;;Account_Management;
 auxiliary;ASPAS;x;x;x;;Account_Management;
 Account_Management;ASPIO;;x;;x;auxiliary;
 CORE;ASTDO;;x;;;General_Ledger;
-Account_Management;ASTMO;x;;;;CORE;
-Cash_Management;ASTMO;x;;;;CORE;
+Account_Management;ASTMO;x;;;;CORE;[T] Get Statements
+Cash_Management;ASTMO;x;;;;CORE;[T] Get Statements
 Account_Management;ASTMS;;x;;;auxiliary;
 Lending;ASTMS;;x;;;auxiliary;
 CORE;ASTMS;;x;;;auxiliary;
@@ -168,23 +168,23 @@ Account_Management;ATADO;;x;;;auxiliary;
 Account_Management;ATAHS;;x;;;auxiliary;
 Financial_Markets;ATAHS;;x;;;auxiliary;
 CORE;ATAHS;;x;;;auxiliary;
-Account_Management;ATAXL;x;;;;Account_Management;
+Account_Management;ATAXL;x;;;;Account_Management;[T] NO SERVICE REQUIRED
 auxiliary;ATAXO;x;x;;;Account_Management;
-Account_Management;ATDCS;;x;;;CORE;
+Account_Management;ATDCS;;x;;;CORE;[T] Get (List) of Free Texts
 auxiliary;ATDCS;;x;;;CORE;
 CORE;ATMPO;x;x;;x;Account_Management;
 auxiliary;ATMPO;x;x;;x;Account_Management;
-General_Ledger;ATRCL;x;;;;General_Ledger;
-Account_Management;ATRCS;;x;;;General_Ledger;
+General_Ledger;ATRCL;x;;;;General_Ledger;[T] NO SERVICE REQUIRED
+Account_Management;ATRCS;;x;;;General_Ledger;[T] Get Accounting Events
 CORE;ATRCS;;x;;;General_Ledger;
 auxiliary;ATRCS;;x;;;General_Ledger;
 General_Ledger;ATRDO;x;;;;Account_Management;
 Lending;ATRDO;x;;;;Account_Management;Create Accounting Event
-Financial_Markets;ATRDO;x;;;;Account_Management;
-Cash_Management;ATRDO;x;;;;Account_Management;
+Financial_Markets;ATRDO;x;;;;Account_Management;[T] Create Accounting Event
+Cash_Management;ATRDO;x;;;;Account_Management;[T] Create Accounting Event
 CORE;ATRDO;x;;;;Account_Management;
 auxiliary;ATRDO;x;;;;Account_Management;
-General_Ledger;ATRTL;x;;;;General_Ledger;
+General_Ledger;ATRTL;x;;;;General_Ledger;[T] NO SERVICE REQUIRED
 Account_Management;ATRTS;;x;;;General_Ledger;
 Lending;ATRTS;;x;;;General_Ledger;Maintain Accounting Rules
 Financial_Markets;ATRTS;;x;;;General_Ledger;
