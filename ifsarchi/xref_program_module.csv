@@ -1247,8 +1247,8 @@ BSWC5;Financial_Markets;Financial_Markets_Trade_engine;LIST BOND SWIFT CNF / PMT
 ILEXPBNK50;Lending;Risk_Reporting_Layer;Lists 50 Largest expos. Banks based on Facilities
 ILEXPCLI50;Lending;Risk_Reporting_Layer;Lists 50 Largest expos. Clients based onFacilities
 CLWARROLL2;Lending;Business_Lending_Engine;Commercial loan roll-ver last warning
+CLWARROLL;Lending;Business_Lending_Engine;Commercial loan roll-ver last warning
 BLACJUSPOR;Financial_Markets;Financial_Markets_Trade_engine;Portfolio account justification bond
-BLBISINV;Financial_Markets;Arrangement_Management;Bond Inventory Report
 BIS2C;Financial_Markets;Financial_Markets_Trade_engine;Additional Info on Issuances 
 IULDTRPTRA;Financial_Markets;Financial_Markets_Trade_engine;transported BTS transactions report (L&D)
 CBFM5;UNUSED;;ANALYS. FORTUNE MANAGEMENT BXL
@@ -1272,7 +1272,187 @@ CLCMCONAL;Lending;Business_Lending_Engine;Comm.loans conclusion analysis
 TOSYNSUB;Lending;Business_Lending_Engine;Comm.loans
 CUCLEANRES;Lending;;Cleaning commisions result
 CCRE5;Lending;;History Commission Inquiry
-=======;;;
+CURXMRECON;Payment_And_Cash_Management;Reconciliation_Engine;RXM reconciliation
+GP-054-CUST-FEE;Financial_Markets;Financial_Markets_Trade_engine;Calculation of Custody Fee
+TLDLVORTE2;Lending;Risk_Reporting_Layer;Vortex download
+TLDLVORTE3;Lending;Risk_Reporting_Layer;Vortex download
+CEXP5;Lending;Business_Lending_Engine;Inquiry of CEXPS
+CEXPS;Lending;Business_Lending_Engine;Commercial explication Invent.
+GP-036-XSPOT;Financial_Markets;Financial_Markets_Trade_engine;Get Spot rate CEXRO.REXC
+GP-040-FXPL;Financial_Markets;Financial_Markets_Trade_engine;Calc P&L for FX-Deals
+GP-041-XREXCY;Financial_Markets;Financial_Markets_Trade_engine;Exchange rate CEXRO
+GP-041-XSPOTY;Financial_Markets;Financial_Markets_Trade_engine;from ccy X to ccy Y via SPOT
+GP-049-MTREVALUAT;Financial_Markets;Financial_Markets_Trade_engine;Revaluate MT deal
+GP-059-MTPLREA;Financial_Markets;Financial_Markets_Trade_engine; MT realised P/L in cpolccy
+ILFXMTMVAL;Financial_Markets;Financial_Markets_Trade_engine; FX TRANSACTIONS MTM VALUATION
+CEXSM;Lending;Business_Lending_Engine;MULIPLE UPDATE EXCESSES
+CLEXSOUTO;Lending;Business_Lending_Engine;Excess/Out of Order: List 
+CUEXSOUTOH;Lending;Business_Lending_Engine;Excess History (Facilities)
+CUMAKRISCL;Lending;Risk_Reporting_Layer;TFR ==> RIS : credit lines
+CFACC;Lending;Business_Lending_Engine;Follow up of CFACS (facilities)
+CFAC5;Lending;Business_Lending_Engine;Facilities Muliple Inquiry
+CFAC6;Lending;Business_Lending_Engine;Facilities Muliple Inquiry
+CFAT1;Lending;;Facility booking entries
+CFAT5;Lending;;Facility booking entries
+CI-014-CFACS-CHK;Lending;;Check Fac prod group
+CLBCKWG18;Payment_And_Cash_Management;Payments_Execution_Engine;Load SWIFT payment
+CLBNKEXP;Lending;Risk_Reporting_Layer;Bank Exposure
+CLEXSSPOT;Financial_Markets;Financial_Markets_Trade_engine;SPOT EXCESS REPORT  
+CLEXSSPOT2;Financial_Markets;Financial_Markets_Trade_engine;SPOT EXCESS REPORT  
+CLFACCRTRE;Lending;Business_Lending_Engine;Facilities with Credit Type  
+CLFACDOCIN;Lending;Business_Lending_Engine;Facil.with incompl.Doc/Securit
+CLFACFLFCR;Lending;Business_Lending_Engine;Facilities Flat-file Creation
+CLFACINT;Lending;Business_Lending_Engine;Facility Interim report
+CLFACINVRE;Lending;Business_Lending_Engine;Facility Inventory Report
+CLFACIRV2M;Lending;Business_Lending_Engine;Facilities Int.Review in X mm
+CLFACLNREP;Lending;Business_Lending_Engine;Loan Repayment and Maturity
+CLFACMAT2M;Lending;Business_Lending_Engine;Facilities Expiring in 2 month
+CLFACMEMRE;Lending;Business_Lending_Engine;Facilities Warning Report Memo
+CLFACNHOAP;Lending;Business_Lending_Engine; Facil. without HO-approval
+CLFACOUTRE;Lending;Business_Lending_Engine;Facilities Outstanding
+CLFACREPRE;Lending;Business_Lending_Engine;Repaym/Matur. History Report
+CLFACOVER;Lending;Business_Lending_Engine;List Overrules  
+CLGUAINTER;Lending;Business_Lending_Engine;TEST GUARANTEES & SECURITIES
+CLLOAOUT;Lending;Business_Lending_Engine;Customer Outstanding
+CPBO2;Financial_Markets;Financial_Markets_Trade_engine;Private Banking Outstanding 
+CSIMS;Lending;Business_Lending_Engine;Simplified inv. Commercial 
+CURTRFAC;Lending;Arrangement_Management;Get facilities for a given contract
+GP-147GET-CFACS;Lending;Business_Lending_Engine;Read required CFACS for faclty
+GP-CHECK-CFACS;Lending;Business_Lending_Engine;Get and check CFACS
+GP-CHECK-CFACS-2;Lending;Business_Lending_Engine;Get and check CFACS
+LLCUSDEAL;Lending;Arrangement_Management;Listing Deals per customer
+RRSC5;Lending;Risk_Reporting_Layer;Relation Risk View   
+RRSC6;Lending;Risk_Reporting_Layer;Relation Risk View   based on CRTRO
+CLFACINTRM;Lending;Business_Lending_Engine;List unauthorised facilities
+CFA2M;Lending;Business_Lending_Engine;Maintaine interim Fac
+CFAI5;Lending;Business_Lending_Engine;This multiple Inquiry screen lists all Facilities in the interim database
+TLDLLRIS2;Lending;;Download RIS
+CFUS5;Lending;Business_Lending_Engine;Mulitple Inquiry on FUS
+CLFUSLST;Lending;Business_Lending_Engine;List FUS data
+CGAT1;Lending;Business_Lending_Engine;Guarantees given booking
+CGAT5;Lending;Business_Lending_Engine;Guarantees given booking
+CLGUATRANS;Lending;Business_Lending_Engine;Daily trans. guarantees issued
+CGUA5;Lending;Business_Lending_Engine;Guarantee mult.inq. 
+CLGUAXDMAT;Lending;Business_Lending_Engine;Guarantees X day's matured
+CLGUAREPRE;Lending;Business_Lending_Engine;Guarantees issued repayment
+CMHIC;Lending;Business_Lending_Engine;Seprate comm loan contracts for validation
+CMHI5;Lending;Business_Lending_Engine;Comm loans 4eyes
+CMTI5;Lending;Business_Lending_Engine;Comm loans 4eyes
+CLMTBNKPFY;Financial_Markets;;Internal profitability report
+CLMTCUSPF2;Financial_Markets;;MT cust prof
+CLMTCUSPFY;Financial_Markets;;MT cust prof
+CLMTDEALS;Financial_Markets;;list MT deals
+CLMTDEANEW;Financial_Markets;;Deals keyed in today
+CLMTEXECUT;Financial_Markets;;MT exec deals
+CLMTPORTFL;Financial_Markets;;MT cust portfolio report
+CLMTWARMAT;Financial_Markets;;Deals maturing in x days
+CMTC5;Financial_Markets;;Margin trading list of deals
+CMTD1;Financial_Markets;;detailed deal info
+CMTD5;Financial_Markets;;MARGIN TRADING DEALS
+CMTDC;Financial_Markets;;Detailed deal Information-CHG
+GP-042-MTPLCUST;Financial_Markets;;MT (Un)realised profit/loss
+CMTEX;Financial_Markets;;MT Excesses follow up 
+CI-FILL-CMTIM;Lending;;List the interim commercial loan trailer records
+CCMHC;Lending;Arrangement_Management;Header commercial loans amend
+CFNI1;Lending;Business_Lending_Engine;Funding inc.comm.loans Inq
+CFNIC;Lending;Business_Lending_Engine;Funding inc. Comm.Loans Chg
+CFNO1;Lending;Business_Lending_Engine;Funding Outg. comm.loans Inq
+CFNOC;Lending;Business_Lending_Engine;Funding outg. Comm.Loans Chg
+CI-FILL-CMTLM;Lending;Business_Lending_Engine;List comm loan trailer records
+CINI1;Lending;Business_Lending_Engine;Comm.loan inc.interest inq. 
+CINIC;Lending;Business_Lending_Engine;Comm.loan inc interest CHG  
+CINO1;Lending;Business_Lending_Engine;Comm.Loan outg.interest inq.
+CINOC;Lending;Business_Lending_Engine;Comm.loan outg. interest CHG 
+CLCALLDEP;Lending;Business_Lending_Engine;Prime Based Loans Outstanding
+CLCMLOALST;Lending;Business_Lending_Engine;List of paid interests 
+CLCMOUTIN2;Lending;Business_Lending_Engine;Sub Partition Outstanding
+CLCMOUTINT;Lending;Business_Lending_Engine;List Outstanding Deals  
+CLCOMOUT;Lending;Business_Lending_Engine;List Outstanding  
+CLCOMWAR;Lending;Business_Lending_Engine;Commercial Warning Comm. Loans
+CLLSTWAR;Lending;Business_Lending_Engine;Last warning report Comm. Loan
+CLPERSONNL;Lending;Consumer_Loans_Engine;Personnel Loans  
+CLPRIBASLN;Lending;Business_Lending_Engine;Prime Based Loans Outstanding
+CLPRIBASSM;Lending;Business_Lending_Engine;Prime Based Loan Account Summ.
+CMTL4;Lending;Business_Lending_Engine;Trailer comm.loans summary inq
+CMTL5;Lending;Business_Lending_Engine;Trailer comm.loans mult inq.
+CPAYC;Lending;Arrangement_Management;Change extra payable/receivable amendments
+CPTD1;Lending;Current_Account_Engine;Payment instruction details
+CPTDC;Lending;Current_Account_Engine;Payment instruction details
+CRECC;Lending;Arrangement_Management;Change extra payable/receivable amendments
+CRMI1;Lending;Business_Lending_Engine;Reimb. Inc. comm.loans Inq
+CRMIC;Lending;Business_Lending_Engine;Reimb.inc. comm. loans CHG 
+CRMO1;Lending;Business_Lending_Engine;Reimb. outg. comm.loans Inq.
+CRMOC;Lending;Business_Lending_Engine;Reimb. outg. comm.loans CHG 
+CCME5;Lending;Business_Lending_Engine;Contract events Comm.Loan Cont
+CLSHRSECVL;Lending;Collateral_management;List securities held by PB
+CLSECCOMP;Lending;Collateral_management;Securities composition report
+CLSHRPORTF;Financial_Markets;Financial_Markets_Trade_engine;Share portfolio report
+CPBC5;Financial_Markets;Financial_Markets_Trade_engine;Private Banking Cust. Mult.inq
+CPBGM;Financial_Markets;Party_Management;PB ctpy grouping
+CLPBAUM;Financial_Markets;Financial_Markets_Trade_engine;Assests under mgmt
+CI-INC-PAYM-INQ;Lending;Instruction_and_Order_Management;Inq inc.paym.instr comm.loans
+CI-OUT-PAYM-INQ;Lending;Instruction_and_Order_Management;outgoing paym.instr. inquiry 
+CI-UPD-CPTIO;Lending;Business_Lending_Engine;update cptio
+TLDLDWH;Lending;;Download IFS Data to SWE Data warehous
+CLCROCO;Lending;Business_Lending_Engine;Lists RAROC info for Facilities
+CURTRRISCH;Lending;Product_Management;Update Product Info in CRTRO
+CLSECCOMP;Lending;Collateral_management;Securities composition report
+ALDLCBITCS;Finance;Local_Regulatory_Reporting_Layer;CBI Customer Download 
+CLFACCRCS;Lending;;CARCASSE FOR FCR
+CLSECCOMP;Lending;Collateral_management;Securities composition report
+CLSECFIMAT;Lending;Collateral_management;?
+CLSECFLFCR;Lending;Collateral_management;Securities Flat-file Creation
+CLSECMAT2M;Lending;Collateral_management;Securities Expiring in 2 month
+CLSECMATRE;Lending;Collateral_management;Maturity History Report 
+CLSECMEMRE;Lending;Collateral_management;Securities Warning Report Memo
+CLSECTYP2C;Lending;Collateral_management;Securities per type / CCY (2
+CLSECTYP2M;Lending;Collateral_management;Securities per type/ccy/relat.
+CSE3C;Lending;Business_Lending_Engine;Additional info CSECS
+CSEC1;Lending;Collateral_management;Sec Inv Inq
+CSEC5;Lending;Collateral_management;Securities Multiple Inquiry
+CSEC6;Lending;Collateral_management;
+CSEC4;Lending;Collateral_management;Securities per Security-giver
+CSEI5;Lending;Collateral_management;List all securities
+CLSECINT;Lending;Collateral_management;List securities
+CLCPSHR;Financial_Markets;Financial_Markets_Trade_engine;MIS CPD Download Shares 
+CSH2A;Financial_Markets;Financial_Markets_Trade_engine;share trading swift messages
+CLSHRVOL;Financial_Markets;Financial_Markets_Trade_engine;Share Trading Volume Report
+CLSHRPROLO;Financial_Markets;Financial_Markets_Trade_engine;Share Trading : Profit & Loss
+CLSHRPROF;Financial_Markets;Financial_Markets_Trade_engine;Share Profitability Report
+CLSHRMAS;Financial_Markets;Financial_Markets_Trade_engine;Share Dealing MAS Report 
+CLSHRFEE;Financial_Markets;;MONTHLY TRANSACTION FEE REP
+CLCASHINT;Financial_Markets;Financial_Markets_Trade_engine;Cash in Transit Report
+GP-054-COMCSHAA;Financial_Markets;Financial_Markets_Trade_engine;Calcul commission on share tr
+CSHC5;Financial_Markets;;Multi Inquiry of Comm. Charges
+CSHDS;Financial_Markets;Financial_Markets_Trade_engine;Share dealtype
+ILAUDITFFT;Financial_Markets;;
+ILAUDITLO3;Financial_Markets;;
+GP-044MATCH;Financial_Markets;;
+CSHO5;Financial_Markets;Financial_Markets_Trade_engine;Multiple Inquiry Equity Option
+CLCPEO;Financial_Markets;Financial_Markets_Trade_engine;MIS CPD Download CSHOO
+CSHT5;Financial_Markets;Financial_Markets_Trade_engine;Share Type Multiple Inquiries
+CSIM5;Lending;;Inq.simp.inventory Commercial
+CLPRIBNK2;Financial_Markets;; Priv. Bank. customer portfolio
+CLPRIBNK;Financial_Markets;; Priv. Bank. customer portfolio
+DULDDTACH;Payment_And_Cash_Management;Payments_Execution_Engine;Upload Global Debit Payments (Geneva)
+DULDGLBPT;Payment_And_Cash_Management;Payments_Execution_Engine;Global Debit Lisbon
+DULDCBIIT;;;upload credemtel   
+DULDBACSIE;Payment_And_Cash_Management;Payments_Execution_Engine;Load BACS payments (IE)
+DULDBACSGB;Payment_And_Cash_Management;Payments_Execution_Engine;Load BACS Payments (GB)
+DUNXTPMTDT;Payment_And_Cash_Management;Payments_Execution_Engine;Calculate Next Payment Date
+DLCONDTYP;Payment_And_Cash_Management;Product_Management;List Conditions type
+GP-071COND;Payment_And_Cash_Management;Product_Management;Read cond table
+DUCALCOSPE;Payment_And_Cash_Management;Product_Management;Calc cheque periodic charge
+DCNP5;Payment_And_Cash_Management;Product_Management;Periodic Cost Mult Inq
+DCND5;Payment_And_Cash_Management;Product_Management;Multiple INQ on Conditions
+DCNB5;Payment_And_Cash_Management;Product_Management;Mult inq batch conditions
+AC2IC;Account_Management;Arrangement_Management;Interim Addit Acc Charge Types
+ACHIC;Account_Management;Arrangement_Management;4 eyes acc charge type
+DCNI5;Payment_And_Cash_Management;Product_Management;Multiple INQ on Conditions (4eyes)
+DLCONDINT;Payment_And_Cash_Management;Product_Management;Payment conditions interim list
+DPRI5;Payment_And_Cash_Management;Product_Management;Mult. Inq Repat/AccPer Interim
+ALCONDCUST;Account_Management;Arrangement_Management;Cust Acc Conditions
+ALDLLCUSAC;Account_Management;Arrangement_Management;Download of Miscellaneous Data
 Program;IFS_MODULE;LBB_MODULE;Rationale
 AADVC;Account_Management;;CRUD
 AAFRC;Account_Management;;C___
